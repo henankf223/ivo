@@ -2,12 +2,14 @@
 A plugin of psi4 for improved virtual orbital (STEX)
 
 Usage: compile by typing
+
     psi4 --plugin-compile
     make
     
 Include ivo directory in $PATHONPATH or state sys.path in psi4 input file.
 
 Then in input file, add
+
     import ivo
     
     set ivo {
